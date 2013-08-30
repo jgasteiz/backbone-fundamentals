@@ -4,7 +4,7 @@ title='Developing Backbone.js Applications'
 filename='backbone-fundamentals'
 
 
-all: html epub rtf pdf mobi
+all: html pdf mobi
 
 markdown:
 	awk 'FNR==1{print ""}{print}' $(source) > $(filename).md
